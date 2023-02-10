@@ -1,4 +1,24 @@
 {
   "python.analysis.typeCheckingMode": "basic",
-  "cSpell.words": ["fastapi"]
+  "cSpell.words": ["fastapi"],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#4284bf",
+    "activityBar.background": "#4284bf",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#e7b8d1",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#4284bf",
+    "statusBar.background": "#346a9a",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#4284bf",
+    "statusBarItem.remoteBackground": "#346a9a",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#346a9a",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#346a9a99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#346a9a"
 }
