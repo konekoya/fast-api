@@ -1,15 +1,21 @@
 from email.policy import HTTP
-from fastapi import APIRouter, Depends, status, HTTPException
-from sqlalchemy.orm import Session
+
 from fastapi.security.oauth2 import OAuth2PasswordRequestForm
+from sqlalchemy.orm import Session
 
+from fastapi import APIRouter, Depends, HTTPException, status
 
+from .. import models, oauth2, schemas, utils
 from ..database import get_db
-from .. import models, utils, oauth2, schemas
 
 router = APIRouter(
     tags=["Authentication"]
 )
+
+
+@router.get("/")
+def hello():
+    return {"message": "hello, world"}
 
 
 @router.post("/login", response_model=schemas.Token)
